@@ -1,0 +1,17 @@
+{
+  "name": "h2cproxy",
+  "version": "0.1.0",
+  "description": "html2canvas proxy web app",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Teachbase <dem@teachbase.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "html2canvas-proxy": "0.0.5",
+    "express": "^4.13.4"
+  }
+}
